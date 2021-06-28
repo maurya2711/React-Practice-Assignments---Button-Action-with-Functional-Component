@@ -14,7 +14,7 @@ function App() {
         Click Me
       </button>
 
-      <p style={{ display: para ? "block" : "none" }}>
+      <p id="para" style={{ display: para ? "block" : "none" }}>
         Hello, I've learnt to use the full-stack evaluation tool. This makes me
         so happy
       </p>
