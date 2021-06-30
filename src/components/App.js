@@ -13,11 +13,12 @@ function App() {
       <button id="click" onClick={(e) => changeClassName(e)}>
         Click Me
       </button>
-      para &&{" "}
-      <p id="para">
-        Hello, I've learnt to use the full-stack evaluation tool. This makes me
-        so happy
-      </p>
+      {para && (
+        <p id="para">
+          Hello, I've learnt to use the full-stack evaluation tool. This makes
+          me so happy
+        </p>
+      )}
     </div>
   );
 }
